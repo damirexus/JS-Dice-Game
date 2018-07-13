@@ -1,0 +1,92 @@
+html body {
+  margin: 0;
+  height: 100%;
+  background-image: url(img/kockice.jpg);
+  background-size: contain;
+  background-size: cover;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+}
+
+#start, #igra {
+  height: 600px;
+  width: 900px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin:auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  opacity: 0.9;
+}
+#igra {
+  visibility: hidden;
+  display: none;
+}
+#prvi_igrac {
+  width: 450px;
+  height: 549px;
+  border-right: 1px solid gray;
+  float: left;
+  display: inline;
+  position: absolute;
+}
+#drugi_igrac {
+  width: 450px;
+  height: 549px;
+  float: right;
+  position: relative;
+}
+#uk_rez {
+  width: 900px;
+  border-bottom: 1px solid gray;
+  height: 50px;
+}
+#runda {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(153, 0, 0);
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  font-weight: 750;
+  font-size: 21px;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -20px;
+
+}
+
+.btn-primary {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 287px;;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+.btn-success {
+  margin-left: 172px;
+  margin-top: 77px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 28px;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+h3 {
+  text-align: center;
+  padding-top: 7px;
+  letter-spacing: 4px;
+}
+p {
+  padding-top: 128px;
+  text-align: center;
+  font-size: 79px;
+  font-weight: 700;
+}
